@@ -53,6 +53,8 @@ Para poder moverse por el modo edito es necesario tener los controles en mente e
 
 Para salir del modo editor seleccionaremos el boton de arriba a la izaquierda y seleccionaremos la opccion guardar y salir. Tal y como se muestra en la presentación.
 
+![](https://github.com/javiLeL/level-maker/blob/main/doc/videos/modo-editor.gif?raw=true)
+
 ## Los usuario avanzados 
 Estos deberan de usar un soporte de base de datos, ya sea `mySql` o compatibles con este como `mariaDB` y ejecutar los archivos sql que se encuentran en la carpeta [sql](https://github.com/javiLeL/lever-maker/tree/main/src/db/sql) esto creara las tablas necesarias para el correcto funcionamiento de la base de datos.
 
