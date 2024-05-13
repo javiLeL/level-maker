@@ -9,7 +9,7 @@ import windows.MainWindow;
  * class Main
  * Esta clase es la encargada de lanzar todo el programa
  * 
- * @author JaviLeL
+ * @author Javi.LeL
  * @version 1.1
  */
 public class Main {
