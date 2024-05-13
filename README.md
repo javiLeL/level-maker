@@ -6,7 +6,8 @@ Este software es un creador de videojuegos tanto para personas poco experimentad
 Aqui dividiremos a lo susarios que quieren hostear su propio servidor y los que quieren disfrutar de Lever Maker como un software normal
 
 ### Los usuarios Normales
-Instalaran el software y en los archivos de configuracion de la base de datos pondran la `ip`, `puerto`, `nombre de la base de datos`, `nombre del usuario de la base de datos` y `contrasena de la base de datos`.
+Instalaran el software y se dirigiran arriba a la derecha y escribiran los distintos datos que ellos necesitan para conectarse a una base de datos.
+![]()
 
 ### Los usuario avanzados 
 Estos deberan de usar un soporte de base de datos, ya sea `mySql` o compatibles con este como `mariaDB` y ejecutar los archivos sql que se encuentran en la carpeta [sql](https://github.com/javiLeL/lever-maker/tree/main/src/db/sql) esto creara las tablas necesarias para el correcto funcionamiento de la base de datos.
