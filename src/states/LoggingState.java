@@ -2,6 +2,7 @@ package states;
 
 import ui.Acttion;
 import ui.Button;
+import ui.ImgButton;
 import ui.MessageError;
 import ui.Text;
 import ui.TextBox;
@@ -30,6 +31,7 @@ public class LoggingState extends State {
     Button[] buttons = new Button[2];
     TextBox[] textBoxs = new TextBox[2];
     private static MessageError messageError;
+    private ImgButton imgButton;
 
     /**
      * Contrucotor para crear un loggin
@@ -72,6 +74,16 @@ public class LoggingState extends State {
                 State.setActualState(new RegisterState());
             }
         });
+        // Se crea un boton con la imagen de la tuerca
+        imgButton = new ImgButton(Settings.width - 70, 50, "assets/buttons/cogcustom.png", new Acttion() {
+
+            @Override
+            public void accionARealizar() {
+                // Al presionar el boton se llevara al usuario al estado de DBState
+                State.setActualState(new DBState());
+            }
+
+        });
     }
 
     /**
@@ -89,6 +101,8 @@ public class LoggingState extends State {
         }
         // Realizara las actualizaciones de el mensaje de error
         messageError.update();
+        // Realizar las actualizaciones del boton con imagen
+        imgButton.update();
     }
 
     /**
@@ -115,6 +129,8 @@ public class LoggingState extends State {
                 new Font("Dialog", Font.PLAIN, 50));
         // Pintara el mensaje de error
         messageError.darw(g);
+        // Pinta el boton con imagen
+        imgButton.draw(g);
     }
 
     /**

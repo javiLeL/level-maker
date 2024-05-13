@@ -89,7 +89,7 @@ public abstract class CRUD {
      * @throws IOException
      */
     public static void readData() throws IOException {
-        File file = new File("server.dat");
+        File file = new File("db/db.cfg");
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             /*
              * Lee todas las filas ignorando la metadata y le asigna la infomacion encotrada
@@ -111,10 +111,21 @@ public abstract class CRUD {
      * @return
      * @throws IOException
      */
-    private static String ignoreMetaData(String data) throws IOException {
+    public static String ignoreMetaData(String data) throws IOException {
         String resultado;
         resultado = data.substring(data.indexOf("=") + 2);
         resultado = resultado.substring(0, resultado.length() - 1);
         return resultado;
+    }
+
+    /**
+     * Metodo encargado de generar la metadata del fichero de texto
+     * 
+     * @param metaname
+     * @param data
+     * @return
+     */
+    public static String generateMetadata(String metaname, String data) {
+        return metaname + "=\"" + data.trim() + "\"";
     }
 }
