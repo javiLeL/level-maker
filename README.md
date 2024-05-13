@@ -71,6 +71,9 @@ Pequeño ejemplo de como se ve el modo juego:
 Si deseamos borrar un nivel lo seleccionaremos y presionaremos el boton borrar este no se borrar de inmediato ya que por motivos de seguridad devemos de presionar el boton aceptar 2 veces.
 
 ## Los usuario avanzados 
+
+Se entendera a usuarios avanzados como personas que poseen ciertos conocimientos con la programación o minimo uso de bases de datos si no es tu caso y aun asi quieres hacerlo puede apoyarte de vario tutoriales para lograrlo.
+
 Estos deberan de usar un soporte de base de datos, ya sea `mySql` o compatibles con este como `mariaDB` y ejecutar los archivos sql que se encuentran en la carpeta [sql](https://github.com/javiLeL/lever-maker/tree/main/src/db/sql) esto creara las tablas necesarias para el correcto funcionamiento de la base de datos.
 
 Para que los demas usuario se puedan conectar es necesario abir un puerto o solo funcionara en local.
