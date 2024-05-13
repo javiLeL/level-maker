@@ -11,9 +11,7 @@ Instalaran el software y se dirigiran arriba a la derecha. El circulo rojo de la
 
 ![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura1.PNG?raw=true)
 
-Esto nos abrira un nuevo apartado el cual deberemos de rellenar con los datos de nuestra base de datos este se ve tal que asi:
-
-![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura2.PNG?raw=true)
+Esto nos abrira un nuevo apartado el cual deberemos de rellenar con los datos de la base de datos que se va a utilizar para alvergar la información
 
 Tras rellenar estos campos con los de la base de datos presionaremos el boton guardar
 *(Esto tambien lo podemos hacer si queremos cambiar de base de datos)*.
@@ -23,19 +21,13 @@ Tras introducir los datos de la base de datos deberemos registrarnos si es que n
 
 ![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura3.PNG?raw=true)
 
-Tras esto nos aparecera un formulario el cual deberemos rellenar, sera al similar a este:
-
-![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura4.PNG?raw=true)
-
-Seleccionaremos el boton de registratse y si todo va bien nos habremos registrado.
+Tras esto nos aparecera un formulario el cual deberemos rellenar, tras esto seleccionaremos el boton de registratse y si todo va bien nos habremos registrado.
 
 Una vez registrados cuando queramos volver ha acceder a nuestro contenido solo debemos iniciar sesión. 
 
 ### Iniciar sesión
 
-Para ello deberemo simplemente reiniciar el programa si ya estamos con una sesion iniciada o salir del apartado donde nos econtremos y dirigirnos al apartado de inicio de sesión
-
-![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura5.PNG?raw=true)
+Para ello deberemo simplemente reiniciar el programa si ya estamos con una sesion iniciada o salir del apartado donde nos econtremos y dirigirnos al apartado de inicio de sesión y rellenaremos los datos que nos piden
 
 ### Niveles
 
