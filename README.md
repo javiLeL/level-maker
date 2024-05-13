@@ -20,6 +20,7 @@ Tras rellenar estos campos con los de la base de datos presionaremos el boton gu
 
 ### Registrarse
 Tras introducir los datos de la base de datos deberemos registrarnos si es que no lo estamos. Para ello nos seleccionaremos la opccion de registrarnos.
+
 ![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura3.PNG?raw=true)
 
 Tras esto nos aparecera un formulario el cual deberemos rellenar, sera al similar a este:
@@ -35,6 +36,22 @@ Una vez registrados cuando queramos volver ha acceder a nuestro contenido solo d
 Para ello deberemo simplemente reiniciar el programa si ya estamos con una sesion iniciada o salir del apartado donde nos econtremos y dirigirnos al apartado de inicio de sesión
 
 ![](https://github.com/javiLeL/level-maker/blob/main/doc/imgs/screenshots/Captura5.PNG?raw=true)
+
+### Niveles
+
+Tras acceder a nuestro contenido si esta vacio solo podremos crear nuevos niveles al hacer esto nos permitira poner nombre al nivel, escribiremos el nombre de nuestra elección y entraremos en el modo ediccion en el cual podemos elegir bloques y ponerlos en el mapa.
+
+#### Controles
+Para poder moverse por el modo edito es necesario tener los controles en mente estos son
+
+| Tecla                         | Accion                          |
+| ----------------------------- | ------------------------------- |
+| `r`                           | Rota 90º el bloque selecciónado |
+| `click izquierdo`             | Colocal un bloque seleccionado  |
+| `click derecho`               | Borrar un bloque ya colocado    |
+| `click central` + `arrastrar` | Permite mover la camara         |
+
+Para salir del modo editor seleccionaremos el boton de arriba a la izaquierda y seleccionaremos la opccion guardar y salir. Tal y como se muestra en la presentación.
 
 ## Los usuario avanzados 
 Estos deberan de usar un soporte de base de datos, ya sea `mySql` o compatibles con este como `mariaDB` y ejecutar los archivos sql que se encuentran en la carpeta [sql](https://github.com/javiLeL/lever-maker/tree/main/src/db/sql) esto creara las tablas necesarias para el correcto funcionamiento de la base de datos.
